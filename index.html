@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD luxiours</title>
+
+    <!-- Boostrap css -->
+    <link rel="stylesheet" href="./Static/css/bootstrap.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/images.jpg">
+
+    <!-- cdn link of font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- cdn link of  swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- external css file -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive-style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav primary">
+                        <li class="nav-item ">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#rooms">Room</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#Price">Price</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="./singh.html">Book now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--/ Navbar section end -->
+
+    <!-- Banner section -->
+    <section id="home" class="banner_wrapper p-0">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image: url(./images/slider/slider2.webp);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to MD luxiours hotel</h1>
+                            <!-- <p>MD luxurious hotels offer an exquisite blend of elegance and comfort, set against
+                                stunning backdrops ranging from waterfront views to historic cityscapes. Guests can
+                                indulge in world-class amenities, including lavish spas, gourmet dining, and
+                                personalized service, all while enjoying the charm of the state's diverse landscapes.
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./images/slider/slider1.webp);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to MD luxiours hotel</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur aut
+                                reprehenderit, nesciunt, voluptas obcaecati et exercitationem odit laboriosam voluptatem
+                                fugit quia reiciendis soluta. Repellendus, debitis sit! Eum, illum ullam.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./images/slider/slider3.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to MD luxiours hotel</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur aut
+                                reprehenderit, nesciunt, voluptas obcaecati et exercitationem odit laboriosam voluptatem
+                                fugit quia reiciendis soluta. Repellendus, debitis sit! Eum, illum ullam.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(./images/slider/slider4.jpg);">
+                    <div class="slide-caption text-center">
+                        <div>
+                            <h1>Welcome to MD luxiours hotel</h1>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aspernatur aut
+                                reprehenderit, nesciunt, voluptas obcaecati et exercitationem odit laboriosam voluptatem
+                                fugit quia reiciendis soluta. Repellendus, debitis sit! Eum, illum ullam.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="container booking-area">
+            <form class="row">
+                <div class="col-lg mb-lg-0">
+                    <input type="date" class="form-control" placeholder="date">
+                </div>
+                <div class="col-lg mb-lg-0">
+                    <input type="date" class="form-control" placeholder="date">
+                </div>
+                <div class="col-lg mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Adult</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">check Availability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Banner section end-->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Welcome to <span>MD luxiours Hotel <br class="d-none d-lg-block">
+                            The haven </span> of your weekend</h3>
+                    <p>Welcome to <span>MD luxiours Hotel</span>, where opulence meets unparalleled service in a
+                        breathtaking setting. Nestled in the heart of Goa, our luxurious hotel redefines
+                        sophistication, offering an exquisite escape for discerning travelers.
+                        <br><br>Each elegantly appointed
+                        room and suite features plush furnishings, stunning views, and state-of-the-art amenities,
+                        ensuring a serene retreat after a day of exploration. Indulge your senses at our award-winning
+                        restaurant, where culinary artistry meets the finest local ingredients, or unwind at our lavish
+                        spa, designed to rejuvenate both body and soul.
+                    </p>
+                    <a href="#" class="main-btn mt-4">Explore more</a>
+                </div>
+
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img src="./images/about-img.svg" class="img-fluid" alt="about">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- Room section -->
+    <section id="rooms" class="rooms_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>What I can do for you</h6>
+                    <h3>Our Favorite Rooms</h3>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="./images/room/room1.webp" class="img-fluid">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Royal Suit</h5>
+                                <p class="text-white">Discover five of our favorite dresses from our new collection that
+                                    are destined to be worn and loved immediately</p>
+                                <p class="text-white fw-bold mt-lg-4">$220/per Night</p>
+                                <a class="main-btn border-white text-white mt-lg-5" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="./images/room/room2.webp" class="img-fluid">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Royal Suit</h5>
+                                <p class="text-white">Discover five of our favorite dresses from our new collection that
+                                    are destined to be worn and loved immediately</p>
+                                <p class="text-white fw-bold mt-lg-4">$320/per Night</p>
+                                <a class="main-btn border-white text-white mt-lg-5" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="./images/room/room3.webp" class="img-fluid">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Royal Suit</h5>
+                                <p class="text-white">Discover five of our favorite dresses from our new collection that
+                                    are destined to be worn and loved immediately</p>
+                                <p class="text-white fw-bold mt-lg-4">$420/per Night</p>
+                                <a class="main-btn border-white text-white mt-lg-5" href="#">Book now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Room section end -->
+
+    <!-- services section -->
+    <section id="services" class="services_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>We are here for you</h6>
+                    <h3>Our Awesome Services</h3>
+                </div>
+            </div>
+            <div class="row align-items-center service-item-wrap">
+                <div class="col-lg-7 p-lg-0">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="spa" role="tabpanel">
+                            <img src="./images/services/service1.webp">
+                        </div>
+                        <div class="tab-pane fade" id="resturant" role="tabpanel">
+                            <img src="./images/services/service2.webp">
+                        </div>
+                        <div class="tab-pane fade" id="swimming" role="tabpanel">
+                            <img src="./images/services/service3.webp">
+                        </div>
+                        <div class="tab-pane fade" id="conference" role="tabpanel">
+                            <img src="./images/services/service6.webp">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 position-relative">
+                    <div class="service-menu-area">
+                        <ul class="nav">
+                            <li>
+                                <a data-bs-toggle="tab" href="#spa" class="active">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon1.webp">
+                                    </span>
+                                    <h5>spa, beauty & Health</h5>
+                                    <p><span>Spa and beauty</span>luptatem quia voluptes sit aspernatur aut odit aut
+                                        fugit, sed quia</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#resturant">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon2.webp">
+                                    </span>
+                                    <h5>Resturant</h5>
+                                    <p><span>Welcome to our Resturant</span> where culinary artistry meets a warm,
+                                        inviting atmosphere.</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#swimming">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon3.webp">
+                                    </span>
+                                    <h5>Swimming</h5>
+                                    <p><span>Swimming</span>luptatem quia voluptes sit aspernatur aut odit aut fugit,
+                                        sed quia</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a data-bs-toggle="tab" href="#conference">
+                                    <span class="service-icon">
+                                        <img src="./images/services/service-icon4.webp">
+                                    </span>
+                                    <h5>Conference Hall</h5>
+                                    <p><span>Conference</span>luptatem quia voluptes sit aspernatur aut odit aut fugit,
+                                        sed quia</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="counter mt-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count1"></span>+
+                        </h1>
+                        <p>Happy Client</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count2"></span>+
+                        </h1>
+                        <p>New Friendships</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count3"></span>+
+                        </h1>
+                        <p>Five Start Rating</p>
+                    </div>
+                    <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+                        <h1>
+                            <span id="count4"></span>+
+                        </h1>
+                        <p>Served Breakfast</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services section end -->
+
+    <!-- Team section -->
+    <section id="team" class="team_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>What I can for you</h6>
+                    <h3>Our Special Staff</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="./images/team/team1.webp" class="img-fluid rounded-3">
+                        <div class="team-info">
+                            <h5>shirley Sibson</h5>
+                            <p>Manager</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="./images/team/team2.webp" class="img-fluid rounded-3">
+                        <div class="team-info">
+                            <h5>Ronald Long</h5>
+                            <p>Chief Reciption Officer</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="./images/team/team3.webp" class="img-fluid rounded-3">
+                        <div class="team-info">
+                            <h5>Ashley Sanchez</h5>
+                            <p>Master chief</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-0 rounded-3">
+                        <img src="./images/team/team4.webp" class="img-fluid rounded-3">
+                        <div class="team-info">
+                            <h5>Jessica Watson</h5>
+                            <p>House Kepping</p>
+                            <ul class="social-network">
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-vimeo-v"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team section end -->
+
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best Picture of Our Hotel</h6>
+                    <h3>Our Gallery</h3>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="./images/gallery/1.webp" class="img-fluid w-100" alt="">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="./images/gallery/2.webp" class="img-fluid w-100" alt="">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="./images/gallery/3.webp" class="img-fluid w-100" alt="">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-lg-3 col-md-6 gallery-item">
+                    <img src="./images/gallery/4.webp" class="img-fluid w-100" alt="">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-md-6 gallery-item">
+                    <img src="./images/gallery/5.webp" class="img-fluid w-100" alt="">
+                    <div class="gallery-item-content"></div>
+                </div>
+                <div class="col-md-6 gallery-item">
+                    <img src="./images/gallery/6.webp" class="img-fluid w-100" alt="">
+                    <div class="gallery-item-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery section end -->
+
+    <!-- pricing section -->
+    <section id="Price" class="price_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best & Affordable price for you</h6>
+                    <h3>Our Pricing</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% off)</p>
+                            </li>
+                            <li>
+                                <p>Resturant (Snacks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make (No)</p>
+                            </li>
+                        </ul>
+                        <hr />
+                        <h3>$150 <sub class="fs-6 fw-normal">NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% off)</p>
+                            </li>
+                            <li>
+                                <p>Resturant (Snacks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make (No)</p>
+                            </li>
+                        </ul>
+                        <hr />
+                        <h3>$150 <sub class="fs-6 fw-normal">NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% off)</p>
+                            </li>
+                            <li>
+                                <p>Resturant (Snacks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make (No)</p>
+                            </li>
+                        </ul>
+                        <hr />
+                        <h3>$150 <sub class="fs-6 fw-normal">NIGHT</sub></h3>
+                        <a href="#" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card p-4 text-center rounded-3">
+                        <h5 class="text-decoration-underline mb-4">Economic</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Flight Ticket (2)</p>
+                            </li>
+                            <li>
+                                <p>Music Concert (30% off)</p>
+                            </li>
+                            <li>
+                                <p>Resturant (Snacks)</p>
+                            </li>
+                            <li>
+                                <p>Face Make (No)</p>
+                            </li>
+                        </ul>
+                        <hr />
+                        <h3>$150 <sub class="fs-6 fw-normal">NIGHT</sub></h3>
+                        <a href="#Price" class="main-btn">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pricing section end -->
+
+    <!-- Blog section -->
+    <section id="blog" class="blog_wrapper pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6> say Hello To Our Visitor </h6>
+                    <h3>Our Blog</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-0 border-0 rounded-0">
+                        <img src="./images/blog/blog1.webp" alt="">
+                        <div class="blog-content bg-white p-4">
+                            <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+                            <h6>By Admin - February 18, 2024</h6>
+                            <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, similique
+                                soluta deleniti quibusdam id temporibus quae aliquid vitae ex nulla explicabo ipsam,
+                                minus, fugiat quasi esse consequuntur porro doloribus ducimus!</p>
+                            <a href="#Blog" class="main-btn mt-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card p-0 border-0 rounded-0">
+                        <img src="./images/blog/blog2.webp" alt="">
+                        <div class="blog-content bg-white p-4">
+                            <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+                            <h6>By Admin - February 18, 2024</h6>
+                            <p class="mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab, similique
+                                soluta deleniti quibusdam id temporibus quae aliquid vitae ex nulla explicabo ipsam,
+                                minus, fugiat quasi esse consequuntur porro doloribus ducimus!</p>
+                            <a href="#Blog" class="main-btn mt-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="our-partner-slider mt-5">
+            <div class="container swiper our-partner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./images/partners/brand1.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/partners/brand2.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/partners/brand3.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/partners/brand4.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/partners/brand5.webp" alt=""></div>
+                    <div class="swiper-slide"><img src="./images/partners/brand6.webp" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog section end-->
+
+    <!-- footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>Hotel Location</h5>
+                    <p class="ps-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, voluptas? </p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa fa-home me-3"></i>No, 96, south city, london</a></li>
+                            <li><a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a></li>
+                            <li><a href="#"><i class="fa fa-envelope me-3"></i>info@example.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>More Link</h5>
+                    <ul class="Link-widget p-0">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Office</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Guarantee</a></li>
+                        <li><a href="#">Buy Gift Card</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>More Link</h5>
+                    <ul class="Link-widget p-0">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our Office</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Our Store</a></li>
+                        <li><a href="#">Guarantee</a></li>
+                        <li><a href="#">Buy Gift Card</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Newsletter</h5>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-transparent" placeholder="Enter your email ">
+                        <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subsribe</button>
+                    </div>
+                    <h5>stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>Copyright <a href="#">Md luxiours Group pvt. limited</a>All Rights Reserved</p>
+        </div>
+    </section>
+    <!-- footer section end -->
+    <!-- Boostrap js -->
+    <script src="Static/js/bootstrap.js"></script>
+
+    <!-- cdn link of swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- external js -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
